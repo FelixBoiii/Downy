@@ -124,7 +124,7 @@ input {
 
 .button-checkout {
     border: 1px solid black;
-    background-color: black;
+    background-color: rgb(61, 174, 93);
     text-align: center;
     color: white;
     border-radius: 16px;
@@ -142,6 +142,7 @@ input {
 }
 
 .remove {
+    color: rgb(216, 216, 216);
     background: none;
     border: none;
     height: auto;
@@ -149,4 +150,16 @@ input {
 
 .remove:hover {
     color: #CB4335;
+}
+
+/**/
+
+#item4{
+    margin: 1em;
+    padding: 1em;
+    background-color:rgb(61, 174, 93);
+}
+
+#check{
+    cursor:pointer;
 }
