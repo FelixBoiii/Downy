@@ -45,7 +45,7 @@ header {
   text-align: center;
   color: white;
   border-radius: 16px;
-  padding: 1.5em 3em;
+  padding: 1.5rem 3rem;
   transform: translate(20px);
   margin: 10px;
   text-decoration: none;
@@ -311,5 +311,13 @@ figcaption {
 /*Cookie Consent End*/
 
 #sale{
-  font-size: bold;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#timer{
+  margin:2em 0.3rem;
+  font-size: 3em;
+  color: red;
+  margin-right: 2em;
 }
